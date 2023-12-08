@@ -23,7 +23,7 @@ If you encounter errors like "Project Facet Java version 20 is not supported," f
 5. Go to Window > Preferences > Compiler > Compiler Compliance Level > Set to 20.
 
 ## Database Setup
-Use the provided SQL queries in the [DatabaseSQLQueries.sql](link/to/queries/file) file to create the required database.
+Use the provided SQL queries in the [DatabaseSQLQueries.sql]([link/to/queries/file](https://github.com/Harshamal-Masinghe/Java_Web_Project/tree/master/DataBaseSql)) file to create the required database.
 
 ## Usage
 1. Register as a buyer or seller and log in with the correct credentials.
