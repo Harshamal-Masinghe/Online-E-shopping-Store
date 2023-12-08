@@ -1,0 +1,23 @@
+img.list-thumbnail {
+    height: 300px !important;
+    width: 100% !important;
+    object-fit: cover !important;
+}
+
+/* SM Screens */
+@media (max-width: 767px) {
+    .property-btn {
+        width: 75% !important;
+        display: block;
+        margin: 1.5rem auto !important;
+    }
+}
+
+/* MD Screens */
+@media (min-width: 768px) {
+    .property-btn {
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+    }
+}

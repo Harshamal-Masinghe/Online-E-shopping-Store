@@ -1,0 +1,34 @@
+@charset "ISO-8859-1";
+
+.container{
+	min-height: 50vh;
+}
+
+img.list-thumbnail {
+    height: 100% !important;
+    width: 100% !important;
+    object-fit: cover !important;
+}
+
+div.status{
+	position: absolute;
+	right: 0px;
+}
+
+/* SM Screens */
+@media (max-width: 767px) {
+    .property-btn {
+        width: 75% !important;
+        display: block;
+        margin: 1.5rem auto !important;
+    }
+}
+
+/* MD Screens */
+@media (min-width: 768px) {
+    .property-btn {
+        /*position: absolute;
+        bottom: 0px;
+        right: 0px;*/
+    }
+}

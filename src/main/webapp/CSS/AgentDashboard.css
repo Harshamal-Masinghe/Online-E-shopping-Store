@@ -1,0 +1,24 @@
+@charset "ISO-8859-1";
+
+#content{
+	margin-top: 4rem;
+	margin-bottom: 4rem;
+}
+
+.card {
+    background-color: var(--platinum);
+    border: none;
+    border-radius: 10px;
+    color: var(--black);
+    transition: 0.6s;
+}
+
+.card:hover {
+    transform: scale(1.025);
+    background-color: var(--violet);
+    color: var(--white);
+}
+
+a {
+    text-decoration: none;
+}

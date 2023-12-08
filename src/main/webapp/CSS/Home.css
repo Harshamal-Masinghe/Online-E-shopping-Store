@@ -1,0 +1,45 @@
+@charset "ISO-8859-1";
+
+body {
+    background-image: url("/PropertyManagementSystem/Assets/illustrations/home/blob.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#content > .row > .wrapper {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-heading {
+    text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+    font-size: 4.5rem;
+}
+
+.logo-heading > .property {
+    color: var(--orange);
+}
+.logo-heading > .finder {
+    color: var(--blue);
+    text-decoration: underline;
+    padding-bottom: 10px;
+}
+
+#banner-image {
+    width: 600px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+/* LG and UP */
+@media (min-width: 992px) {
+    #banner-image {
+    	width: 750px;
+	}
+}

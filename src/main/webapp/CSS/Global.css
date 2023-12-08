@@ -1,0 +1,90 @@
+@charset "ISO-8859-1";
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+:root {
+    --orange: #e97a24;
+    --orange-light: #ee9958;
+    --blue: #2e2c74;
+    --black: #333333;
+    --gray: #dddddd;
+    --gray-dark: #777777;
+    --platinum: #e6e6e6;
+    --white: #ffffff;
+    --green: #1aa953;
+    --violet: #3f3d56;
+    --red: #dc3545
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    overflow-x: hidden;
+}
+
+/* Button Styles */
+.btn {
+    border-radius: 15px !important;
+    font-weight: 700;
+    width: 50%;
+    transition: 0.5s;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.btn-orange {
+    background-color: var(--orange);
+    color: var(--white);
+}
+.btn-orange:hover {
+    background-color: var(--orange-light);
+    color: var(--black);
+}
+
+.btn-gray {
+    background-color: var(--white);
+    color: var(--black);
+    border: 2px solid var(--gray);
+}
+.btn-gray:hover {
+    background-color: var(--gray-dark);
+    color: var(--white);
+}
+
+.btn-outline-blue {
+    border: 2px solid var(--blue);
+    background-color: var(--white);
+    color: var(--blue);
+}
+.btn-outline-blue:hover {
+    background-color: var(--blue);
+    color: var(--white);
+}
+
+.btn-outline-red {
+    border: 2px solid var(--red);
+    background-color: var(--white);
+    color: var(--red);
+}
+.btn-outline-red:hover {
+    background-color: var(--red);
+    color: var(--white);
+}
+
+/* Backgrounds */
+.bg-blue {
+    background-color: var(--blue) !important;
+}
+
+/* Forms */
+.form-control:focus {
+    box-shadow: none;
+    border: 2px solid var(--blue);
+}
+
+/* Illustration Sizing */
+.illustration-md {
+    width: 350px !important;
+}
+.illustration-lg {
+    width: 450px !important;
+}
