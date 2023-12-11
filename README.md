@@ -31,3 +31,8 @@ Use the provided SQL queries available in the [DataBaseSql](https://github.com/H
    - Username: harsha
    - Password: admin123
 3. Seller can update their profile.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
